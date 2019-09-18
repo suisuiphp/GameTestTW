@@ -1,0 +1,5 @@
+account,max_member_count,cash_credits,self_highest_proportion
+zy-gs,10000,10000000,1,
+zy-fgs,9000,9000000,0.4,
+zy-dzj,8000,8000000,0.3,
+zy-zj,7000,7000000,0.7,
