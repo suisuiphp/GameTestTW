@@ -19,35 +19,44 @@
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_execution_odds_001.coverage" NAME="Unittests for test_member.TestMember.test_execution_odds_001 Coverage Results" MODIFIED="1565682702571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_proportion_TestProportion_test_new_case6.coverage" NAME="Unittests for test_proportion.TestProportion.test_new_case6 Coverage Results" MODIFIED="1564540121502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_login_001.coverage" NAME="Unittests for test_member.TestMember.test_login_001 Coverage Results" MODIFIED="1563879516927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_reports_003.coverage" NAME="Unittests for test_member.TestMember.test_reports_003 Coverage Results" MODIFIED="1568962455434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_recently_number_001.coverage" NAME="Unittests for test_member.TestMember.test_recently_number_001 Coverage Results" MODIFIED="1565665808533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_recently_number_004.coverage" NAME="Unittests for test_member.TestMember.test_recently_number_004 Coverage Results" MODIFIED="1565666769525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$opertionProportionExcel.coverage" NAME="opertionProportionExcel Coverage Results" MODIFIED="1564558035127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils/proportionExcel" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_proportion_TestProportion_test_change_case9.coverage" NAME="Unittests for test_proportion.TestProportion.test_change_case9 Coverage Results" MODIFIED="1564558220563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_admin_TestAdmin_test_new_new_company_001.coverage" NAME="Unittests for test_admin.TestAdmin.test_new_new_company_001 Coverage Results" MODIFIED="1564641681248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_period_number_001.coverage" NAME="Unittests for test_member.TestMember.test_period_number_001 Coverage Results" MODIFIED="1568790939193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_tw_auto_bet_006.coverage" NAME="Unittests for test_member.TestMember.test_tw_auto_bet_006 Coverage Results" MODIFIED="1568964825624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_admin_TestAdmin_test_admin_password_001.coverage" NAME="Unittests for test_admin.TestAdmin.test_admin_password_001 Coverage Results" MODIFIED="1565162463554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_bet_004.coverage" NAME="Unittests for test_member.TestMember.test_bet_004 Coverage Results" MODIFIED="1565678292701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_current_orders_001.coverage" NAME="Unittests for test_member.TestMember.test_current_orders_001 Coverage Results" MODIFIED="1565682768260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_personal_info_001.coverage" NAME="Unittests for test_member.TestMember.test_personal_info_001 Coverage Results" MODIFIED="1565682719679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_lottery_infos_001.coverage" NAME="Unittests for test_member.TestMember.test_lottery_infos_001 Coverage Results" MODIFIED="1564459075489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_proportion_TestProportion_test_new_case5.coverage" NAME="Unittests for test_proportion.TestProportion.test_new_case5 Coverage Results" MODIFIED="1565662989719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_lottery_infos_001.coverage" NAME="Unittests for test_member.TestMember.test_lottery_infos_001 Coverage Results" MODIFIED="1568963111989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_reports_002.coverage" NAME="Unittests for test_member.TestMember.test_reports_002 Coverage Results" MODIFIED="1564137304920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_tw_auto_bet_003.coverage" NAME="Unittests for test_member.TestMember.test_tw_auto_bet_003 Coverage Results" MODIFIED="1568964799312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_002.coverage" NAME="Unittests for test_member.TestMember.test_002 Coverage Results" MODIFIED="1563880567244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_reports_retreating_002.coverage" NAME="Unittests for test_member.TestMember.test_reports_retreating_002 Coverage Results" MODIFIED="1564386161456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_admin_TestAdmin_test_recently_number_002.coverage" NAME="Unittests for test_admin.TestAdmin.test_recently_number_002 Coverage Results" MODIFIED="1564712569885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_recently_number_003.coverage" NAME="Unittests for test_member.TestMember.test_recently_number_003 Coverage Results" MODIFIED="1565666554332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_bet_002.coverage" NAME="Unittests for test_member.TestMember.test_bet_002 Coverage Results" MODIFIED="1565678152104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_bet_003.coverage" NAME="Unittests for test_member.TestMember.test_bet_003 Coverage Results" MODIFIED="1565681172100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_tw_auto_bet_002.coverage" NAME="Unittests for test_member.TestMember.test_tw_auto_bet_002 Coverage Results" MODIFIED="1568965882304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_statistic_infos_001.coverage" NAME="Unittests for test_member.TestMember.test_statistic_infos_001 Coverage Results" MODIFIED="1564563095202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/GameTestTW$test.coverage" NAME="test Coverage Results" MODIFIED="1565859022757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_tw_auto_bet_008.coverage" NAME="Unittests for test_member.TestMember.test_tw_auto_bet_008 Coverage Results" MODIFIED="1568964854293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GameTestTW$test.coverage" NAME="test Coverage Results" MODIFIED="1568951243131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_recently_number_002.coverage" NAME="Unittests for test_member.TestMember.test_recently_number_002 Coverage Results" MODIFIED="1565667250722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_reports_retreating_001.coverage" NAME="Unittests for test_member.TestMember.test_reports_retreating_001 Coverage Results" MODIFIED="1564137301249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_history_001.coverage" NAME="Unittests for test_member.TestMember.test_history_001 Coverage Results" MODIFIED="1564451777852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_lottery_infos_002.coverage" NAME="Unittests for test_member.TestMember.test_lottery_infos_002 Coverage Results" MODIFIED="1568963119026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_in_test_proportion_py.coverage" NAME="Unittests in test_proportion.py Coverage Results" MODIFIED="1564481405251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$member.coverage" NAME="member Coverage Results" MODIFIED="1564137643212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_tw_auto_bet_001.coverage" NAME="Unittests for test_member.TestMember.test_tw_auto_bet_001 Coverage Results" MODIFIED="1568970943783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember.coverage" NAME="Unittests for test_member.TestMember Coverage Results" MODIFIED="1563950026537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_admin_TestAdmin_test_recently_number_001.coverage" NAME="Unittests for test_admin.TestAdmin.test_recently_number_001 Coverage Results" MODIFIED="1564651384951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_reports_001.coverage" NAME="Unittests for test_member.TestMember.test_reports_001 Coverage Results" MODIFIED="1564393081765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_tw_auto_bet_004.coverage" NAME="Unittests for test_member.TestMember.test_tw_auto_bet_004 Coverage Results" MODIFIED="1568964814777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_tw_auto_bet_007.coverage" NAME="Unittests for test_member.TestMember.test_tw_auto_bet_007 Coverage Results" MODIFIED="1568964830459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$operationRequestExcel.coverage" NAME="operationRequestExcel Coverage Results" MODIFIED="1563878363281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils/requestExcel" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_admin_TestAdmin_test_period_infos_001.coverage" NAME="Unittests for test_admin.TestAdmin.test_period_infos_001 Coverage Results" MODIFIED="1564651379563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_period_infos_002.coverage" NAME="Unittests for test_member.TestMember.test_period_infos_002 Coverage Results" MODIFIED="1565666399485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
@@ -57,13 +66,14 @@
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_statistic_infos_002.coverage" NAME="Unittests for test_member.TestMember.test_statistic_infos_002 Coverage Results" MODIFIED="1565682940424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_show_group_history_001.coverage" NAME="Unittests for test_member.TestMember.test_show_group_history_001 Coverage Results" MODIFIED="1565683075988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_proportion_TestProportion_test_new_case4.coverage" NAME="Unittests for test_proportion.TestProportion.test_new_case4 Coverage Results" MODIFIED="1565661714671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/GameTestTW$Unittests_in_test_member_py.coverage" NAME="Unittests in test_member.py Coverage Results" MODIFIED="1568790969711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GameTestTW$Unittests_in_test_member_py.coverage" NAME="Unittests in test_member.py Coverage Results" MODIFIED="1568972403308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$public.coverage" NAME="public Coverage Results" MODIFIED="1563778391536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_proportion_TestProportion_test_new_case2.coverage" NAME="Unittests for test_proportion.TestProportion.test_new_case2 Coverage Results" MODIFIED="1565603913718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_admin_TestAdmin_test_password_001.coverage" NAME="Unittests for test_admin.TestAdmin.test_password_001 Coverage Results" MODIFIED="1564389676062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_proportion_TestProportion_test_change_case7.coverage" NAME="Unittests for test_proportion.TestProportion.test_change_case7 Coverage Results" MODIFIED="1564540770421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$operationJson.coverage" NAME="operationJson Coverage Results" MODIFIED="1563960803004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_show_group_history_002.coverage" NAME="Unittests for test_member.TestMember.test_show_group_history_002 Coverage Results" MODIFIED="1565683080308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_tw_auto_bet_005.coverage" NAME="Unittests for test_member.TestMember.test_tw_auto_bet_005 Coverage Results" MODIFIED="1568964821977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_proportion_TestProportion_test_new_case3.coverage" NAME="Unittests for test_proportion.TestProportion.test_new_case3 Coverage Results" MODIFIED="1565604092009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_proportion_TestProportion_test_change_case10.coverage" NAME="Unittests for test_proportion.TestProportion.test_change_case10 Coverage Results" MODIFIED="1564558630673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_in_test_admin_py.coverage" NAME="Unittests in test_admin.py Coverage Results" MODIFIED="1565599066832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
@@ -72,11 +82,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="requestData.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/requestData.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="787" column="0" lean-forward="false" selection-start-line="787" selection-start-column="0" selection-end-line="787" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!block;n#member_bet_002#0;n#!!top" expanded="false" />
+                <element signature="e#425#573#0" expanded="false" />
+                <element signature="n#!!block;n#member_bet_004#0;n#!!top" expanded="false" />
+                <element signature="e#9443#9583#0" expanded="false" />
+                <element signature="e#9585#9725#0" expanded="false" />
+                <element signature="e#9869#10009#0" expanded="false" />
+                <element signature="e#10011#10150#0" expanded="false" />
+                <element signature="e#10152#10291#0" expanded="false" />
+                <element signature="e#10293#10432#0" expanded="false" />
+                <element signature="n#!!block;n#member_tw_auto_bet_001#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="variables.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/variables.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="29" />
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -85,24 +116,23 @@
       <file leaf-file-name="user.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="169" column="30" lean-forward="false" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
+            <state relative-caret-position="4240">
+              <caret line="435" column="73" lean-forward="false" selection-start-line="435" selection-start-column="73" selection-end-line="435" selection-end-column="73" />
               <folding>
                 <element signature="e#413#1148#0" expanded="false" />
                 <element signature="e#2487#3667#0" expanded="false" />
-                <element signature="e#6207#9010#0" expanded="false" />
-                <element signature="e#9057#9760#0" expanded="false" />
-                <element signature="e#9833#10447#0" expanded="false" />
-                <element signature="e#11163#11313#0" expanded="false" />
-                <element signature="e#11375#11801#0" expanded="false" />
-                <element signature="e#13257#13433#0" expanded="false" />
-                <element signature="e#13513#13762#0" expanded="false" />
-                <element signature="e#13835#14075#0" expanded="false" />
-                <element signature="e#14142#14294#0" expanded="false" />
-                <element signature="e#14353#14469#0" expanded="false" />
-                <element signature="e#14853#15087#0" expanded="false" />
-                <element signature="e#15158#15303#0" expanded="false" />
-                <element signature="e#15383#15546#0" expanded="false" />
+                <element signature="e#6357#9160#0" expanded="false" />
+                <element signature="e#9207#9910#0" expanded="false" />
+                <element signature="e#9983#10597#0" expanded="false" />
+                <element signature="e#10659#11255#0" expanded="false" />
+                <element signature="e#11313#11463#0" expanded="false" />
+                <element signature="e#13407#13583#0" expanded="false" />
+                <element signature="e#13663#13912#0" expanded="false" />
+                <element signature="e#13985#14225#0" expanded="false" />
+                <element signature="e#14649#14765#0" expanded="false" />
+                <element signature="e#15149#15383#0" expanded="false" />
+                <element signature="e#15454#15599#0" expanded="false" />
+                <element signature="e#15679#15842#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -111,36 +141,63 @@
       <file leaf-file-name="test_member.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_member.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="322" column="4" lean-forward="false" selection-start-line="322" selection-start-column="4" selection-end-line="322" selection-end-column="4" />
+            <state relative-caret-position="361">
+              <caret line="460" column="22" lean-forward="false" selection-start-line="460" selection-start-column="22" selection-end-line="460" selection-end-column="22" />
               <folding>
                 <element signature="e#56#73#0" expanded="true" />
-                <element signature="e#864#1197#0" expanded="false" />
-                <element signature="e#1405#1760#0" expanded="false" />
-                <element signature="e#1860#2261#0" expanded="false" />
-                <element signature="e#2409#3351#0" expanded="false" />
-                <element signature="e#3391#4429#0" expanded="false" />
-                <element signature="e#4578#5115#0" expanded="false" />
-                <element signature="e#5156#5739#0" expanded="false" />
-                <element signature="e#5875#6213#0" expanded="false" />
-                <element signature="e#6406#6522#0" expanded="false" />
-                <element signature="e#6552#6676#0" expanded="false" />
-                <element signature="e#6759#6881#0" expanded="false" />
-                <element signature="e#6912#7036#0" expanded="false" />
-                <element signature="e#7186#7901#0" expanded="false" />
-                <element signature="e#7942#8767#0" expanded="false" />
-                <element signature="e#8918#9328#0" expanded="false" />
-                <element signature="e#9981#10759#0" expanded="false" />
-                <element signature="e#10805#11629#0" expanded="false" />
-                <element signature="e#11780#11900#0" expanded="false" />
-                <element signature="e#12047#12163#0" expanded="false" />
-                <element signature="e#12311#12431#0" expanded="false" />
-                <element signature="e#12465#12631#0" expanded="false" />
-                <element signature="e#12789#13006#0" expanded="false" />
-                <element signature="e#13051#13245#0" expanded="false" />
-                <element signature="e#13394#13580#0" expanded="false" />
-                <element signature="e#13735#14322#0" expanded="false" />
+                <element signature="e#479#766#0" expanded="false" />
+                <element signature="e#863#1196#0" expanded="false" />
+                <element signature="e#1404#1759#0" expanded="false" />
+                <element signature="e#1859#2260#0" expanded="false" />
+                <element signature="e#3394#4432#0" expanded="false" />
+                <element signature="e#4581#5118#0" expanded="false" />
+                <element signature="e#5159#5742#0" expanded="false" />
+                <element signature="e#5878#6216#0" expanded="false" />
+                <element signature="e#6409#6531#0" expanded="false" />
+                <element signature="e#6561#6685#0" expanded="false" />
+                <element signature="e#6768#6890#0" expanded="false" />
+                <element signature="e#6920#7044#0" expanded="false" />
+                <element signature="e#7194#7909#0" expanded="false" />
+                <element signature="e#7950#8775#0" expanded="false" />
+                <element signature="e#8926#9336#0" expanded="false" />
+                <element signature="e#9378#9834#0" expanded="false" />
+                <element signature="e#9989#10767#0" expanded="false" />
+                <element signature="e#10812#11636#0" expanded="false" />
+                <element signature="e#11787#11907#0" expanded="false" />
+                <element signature="e#12054#12170#0" expanded="false" />
+                <element signature="e#12318#12438#0" expanded="false" />
+                <element signature="e#12472#12638#0" expanded="false" />
+                <element signature="e#12673#12839#0" expanded="false" />
+                <element signature="e#12997#13214#0" expanded="false" />
+                <element signature="e#13259#13453#0" expanded="false" />
+                <element signature="e#13842#14028#0" expanded="false" />
+                <element signature="e#14183#14784#0" expanded="false" />
+                <element signature="e#14825#15426#0" expanded="false" />
+                <element signature="e#16385#16926#0" expanded="false" />
+                <element signature="e#16992#17509#0" expanded="false" />
+                <element signature="e#17552#17934#0" expanded="false" />
+                <element signature="e#17977#18395#0" expanded="false" />
+                <element signature="e#18438#18832#0" expanded="false" />
+                <element signature="e#18875#19293#0" expanded="false" />
+                <element signature="e#19618#19657#0" expanded="false" />
+                <element signature="e#19694#19733#0" expanded="false" />
+                <element signature="e#19770#19809#0" expanded="false" />
+                <element signature="e#19846#19885#0" expanded="false" />
+                <element signature="e#19922#19963#0" expanded="false" />
+                <element signature="e#20000#20041#0" expanded="false" />
+                <element signature="e#20078#20119#0" expanded="false" />
+                <element signature="e#20156#20197#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1420">
+              <caret line="71" column="6" lean-forward="false" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,10 +260,10 @@
         <option value="$PROJECT_DIR$/utils/isAssert.py" />
         <option value="$PROJECT_DIR$/tests/test_admin.py" />
         <option value="$PROJECT_DIR$/tests/test_proportion.py" />
-        <option value="$PROJECT_DIR$/base/variables.py" />
         <option value="$PROJECT_DIR$/data/requestData.json" />
-        <option value="$PROJECT_DIR$/base/user.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/base/user.py" />
+        <option value="$PROJECT_DIR$/base/variables.py" />
         <option value="$PROJECT_DIR$/tests/test_member.py" />
       </list>
     </option>
@@ -218,8 +275,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="101" />
-    <option name="y" value="76" />
+    <option name="x" value="88" />
+    <option name="y" value="69" />
     <option name="width" value="1732" />
     <option name="height" value="963" />
   </component>
@@ -238,6 +295,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,12 +304,20 @@
               <item name="GameTestTW" type="b2602c69:ProjectViewProjectNode" />
               <item name="GameTestTW" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GameTestTW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameTestTW" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GameTestTW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameTestTW" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,26 +349,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.Unittests in test_member.py">
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="GameTestTW" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Unittests for test_member.TestMember.test_period_number_001" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_member.TestMember.test_tw_auto_bet_001" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -313,10 +361,10 @@
       <module name="GameTestTW" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_member.TestMember.test_period_number_001&quot;" />
+      <option name="_new_target" value="&quot;test_member.TestMember.test_tw_auto_bet_001&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_member.TestMember.test_period_number_002" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_member.TestMember.test_tw_auto_bet_002" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -328,10 +376,10 @@
       <module name="GameTestTW" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_member.TestMember.test_period_number_002&quot;" />
+      <option name="_new_target" value="&quot;test_member.TestMember.test_tw_auto_bet_002&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_member.TestMember.test_show_group_history_002" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_member.TestMember.test_tw_auto_bet_007" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -343,7 +391,22 @@
       <module name="GameTestTW" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_member.TestMember.test_show_group_history_002&quot;" />
+      <option name="_new_target" value="&quot;test_member.TestMember.test_tw_auto_bet_007&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_member.TestMember.test_tw_auto_bet_008" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GameTestTW" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_member.TestMember.test_tw_auto_bet_008&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests in test_member.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -362,19 +425,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_show_group_history_002" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_member.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_period_number_001" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_period_number_002" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_tw_auto_bet_007" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_tw_auto_bet_008" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_tw_auto_bet_001" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_tw_auto_bet_002" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_member.py" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_member.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_period_number_002" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_period_number_001" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_show_group_history_002" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_tw_auto_bet_001" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_tw_auto_bet_002" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_tw_auto_bet_008" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_tw_auto_bet_007" />
       </list>
     </recent_temporary>
   </component>
@@ -395,34 +458,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_member_TestMember_test_period_number_001 - 2019.09.18 at 15h 15m 41s.xml">
-      <configuration name="Unittests for test_member.TestMember.test_period_number_001" configurationId="tests" />
+    <history-entry file="Unittests_for_test_member_TestMember_test_tw_auto_bet_001 - 2019.09.20 at 15h 47m 49s.xml">
+      <configuration name="Unittests for test_member.TestMember.test_tw_auto_bet_001" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_member_TestMember_test_period_number_002 - 2019.08.13 at 15h 51m 39s.xml">
-      <configuration name="Unittests for test_member.TestMember.test_period_number_002" configurationId="tests" />
+    <history-entry file="Unittests_for_test_member_TestMember_test_tw_auto_bet_001 - 2019.09.20 at 15h 48m 03s.xml">
+      <configuration name="Unittests for test_member.TestMember.test_tw_auto_bet_001" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_member_TestMember_test_period_number_002 - 2019.09.18 at 15h 15m 50s.xml">
-      <configuration name="Unittests for test_member.TestMember.test_period_number_002" configurationId="tests" />
+    <history-entry file="Unittests_for_test_member_TestMember_test_tw_auto_bet_001 - 2019.09.20 at 15h 49m 37s.xml">
+      <configuration name="Unittests for test_member.TestMember.test_tw_auto_bet_001" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_member_TestMember_test_period_number_002 - 2019.09.18 at 15h 16m 02s.xml">
-      <configuration name="Unittests for test_member.TestMember.test_period_number_002" configurationId="tests" />
+    <history-entry file="Unittests_for_test_member_TestMember_test_tw_auto_bet_001 - 2019.09.20 at 17h 15m 58s.xml">
+      <configuration name="Unittests for test_member.TestMember.test_tw_auto_bet_001" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_member_TestMember_test_personal_info_001 - 2019.08.13 at 15h 52m 01s.xml">
-      <configuration name="Unittests for test_member.TestMember.test_personal_info_001" configurationId="tests" />
+    <history-entry file="Unittests_for_test_member_TestMember_test_tw_auto_bet_002 - 2019.09.20 at 15h 51m 32s.xml">
+      <configuration name="Unittests for test_member.TestMember.test_tw_auto_bet_002" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_member_TestMember_test_show_group_history_001 - 2019.08.13 at 15h 57m 57s.xml">
-      <configuration name="Unittests for test_member.TestMember.test_show_group_history_001" configurationId="tests" />
+    <history-entry file="Unittests_for_test_member_TestMember_test_tw_auto_bet_006 - 2019.09.20 at 15h 33m 47s.xml">
+      <configuration name="Unittests for test_member.TestMember.test_tw_auto_bet_006" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_member_TestMember_test_show_group_history_002 - 2019.08.13 at 15h 58m 01s.xml">
-      <configuration name="Unittests for test_member.TestMember.test_show_group_history_002" configurationId="tests" />
+    <history-entry file="Unittests_for_test_member_TestMember_test_tw_auto_bet_007 - 2019.09.20 at 15h 33m 57s.xml">
+      <configuration name="Unittests for test_member.TestMember.test_tw_auto_bet_007" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_member_TestMember_test_statistic_infos_002 - 2019.08.13 at 15h 55m 41s.xml">
-      <configuration name="Unittests for test_member.TestMember.test_statistic_infos_002" configurationId="tests" />
+    <history-entry file="Unittests_for_test_member_TestMember_test_tw_auto_bet_008 - 2019.09.20 at 15h 34m 07s.xml">
+      <configuration name="Unittests for test_member.TestMember.test_tw_auto_bet_008" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_member_py - 2019.09.18 at 15h 14m 56s.xml">
-      <configuration name="Unittests in test_member.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_member_TestMember_test_tw_auto_bet_008 - 2019.09.20 at 15h 34m 20s.xml">
+      <configuration name="Unittests for test_member.TestMember.test_tw_auto_bet_008" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_member_py - 2019.09.18 at 15h 16m 32s.xml">
+    <history-entry file="Unittests_in_test_member_py - 2019.09.20 at 17h 41m 24s.xml">
       <configuration name="Unittests in test_member.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -436,23 +499,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="76" width="1732" height="963" extended-state="0" />
+    <frame x="88" y="69" width="1732" height="963" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27419356" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42741936" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25443786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26035503" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2891705" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -470,7 +533,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="73" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="79" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -503,6 +573,7 @@
             <element signature="e#10011#10150#0" expanded="false" />
             <element signature="e#10152#10291#0" expanded="false" />
             <element signature="e#10293#10432#0" expanded="false" />
+            <element signature="n#!!block;n#member_tw_auto_bet_001#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -596,6 +667,7 @@
             <element signature="e#10011#10150#0" expanded="false" />
             <element signature="e#10152#10291#0" expanded="false" />
             <element signature="e#10293#10432#0" expanded="false" />
+            <element signature="n#!!block;n#member_tw_auto_bet_001#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -769,13 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="940">
           <caret line="114" column="51" lean-forward="false" selection-start-line="114" selection-start-column="51" selection-end-line="114" selection-end-column="51" />
-          <folding>
-            <element signature="e#414#1618#0" expanded="false" />
-            <element signature="e#1784#2334#0" expanded="false" />
-            <element signature="e#2390#2677#0" expanded="false" />
-            <element signature="e#2736#3091#0" expanded="false" />
-            <element signature="e#3150#3498#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,42 +887,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="65" column="94" lean-forward="false" selection-start-line="65" selection-start-column="94" selection-end-line="65" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="169" column="30" lean-forward="false" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
-          <folding>
-            <element signature="e#413#1148#0" expanded="false" />
-            <element signature="e#2487#3667#0" expanded="false" />
-            <element signature="e#6207#9010#0" expanded="false" />
-            <element signature="e#9057#9760#0" expanded="false" />
-            <element signature="e#9833#10447#0" expanded="false" />
-            <element signature="e#11163#11313#0" expanded="false" />
-            <element signature="e#11375#11801#0" expanded="false" />
-            <element signature="e#13257#13433#0" expanded="false" />
-            <element signature="e#13513#13762#0" expanded="false" />
-            <element signature="e#13835#14075#0" expanded="false" />
-            <element signature="e#14142#14294#0" expanded="false" />
-            <element signature="e#14353#14469#0" expanded="false" />
-            <element signature="e#14853#15087#0" expanded="false" />
-            <element signature="e#15158#15303#0" expanded="false" />
-            <element signature="e#15383#15546#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/requestData.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="771" column="2" lean-forward="false" selection-start-line="771" selection-start-column="2" selection-end-line="771" selection-end-column="2" />
+        <state relative-caret-position="240">
+          <caret line="787" column="0" lean-forward="false" selection-start-line="787" selection-start-column="0" selection-end-line="787" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#member_bet_002#0;n#!!top" expanded="false" />
             <element signature="e#425#573#0" expanded="false" />
@@ -868,6 +901,38 @@
             <element signature="e#10011#10150#0" expanded="false" />
             <element signature="e#10152#10291#0" expanded="false" />
             <element signature="e#10293#10432#0" expanded="false" />
+            <element signature="n#!!block;n#member_tw_auto_bet_001#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1420">
+          <caret line="71" column="6" lean-forward="false" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4240">
+          <caret line="435" column="73" lean-forward="false" selection-start-line="435" selection-start-column="73" selection-end-line="435" selection-end-column="73" />
+          <folding>
+            <element signature="e#413#1148#0" expanded="false" />
+            <element signature="e#2487#3667#0" expanded="false" />
+            <element signature="e#6357#9160#0" expanded="false" />
+            <element signature="e#9207#9910#0" expanded="false" />
+            <element signature="e#9983#10597#0" expanded="false" />
+            <element signature="e#10659#11255#0" expanded="false" />
+            <element signature="e#11313#11463#0" expanded="false" />
+            <element signature="e#13407#13583#0" expanded="false" />
+            <element signature="e#13663#13912#0" expanded="false" />
+            <element signature="e#13985#14225#0" expanded="false" />
+            <element signature="e#14649#14765#0" expanded="false" />
+            <element signature="e#15149#15383#0" expanded="false" />
+            <element signature="e#15454#15599#0" expanded="false" />
+            <element signature="e#15679#15842#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -875,42 +940,59 @@
     <entry file="file://$PROJECT_DIR$/base/variables.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="29" />
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_member.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="322" column="4" lean-forward="false" selection-start-line="322" selection-start-column="4" selection-end-line="322" selection-end-column="4" />
+        <state relative-caret-position="361">
+          <caret line="460" column="22" lean-forward="false" selection-start-line="460" selection-start-column="22" selection-end-line="460" selection-end-column="22" />
           <folding>
             <element signature="e#56#73#0" expanded="true" />
-            <element signature="e#864#1197#0" expanded="false" />
-            <element signature="e#1405#1760#0" expanded="false" />
-            <element signature="e#1860#2261#0" expanded="false" />
-            <element signature="e#2409#3351#0" expanded="false" />
-            <element signature="e#3391#4429#0" expanded="false" />
-            <element signature="e#4578#5115#0" expanded="false" />
-            <element signature="e#5156#5739#0" expanded="false" />
-            <element signature="e#5875#6213#0" expanded="false" />
-            <element signature="e#6406#6522#0" expanded="false" />
-            <element signature="e#6552#6676#0" expanded="false" />
-            <element signature="e#6759#6881#0" expanded="false" />
-            <element signature="e#6912#7036#0" expanded="false" />
-            <element signature="e#7186#7901#0" expanded="false" />
-            <element signature="e#7942#8767#0" expanded="false" />
-            <element signature="e#8918#9328#0" expanded="false" />
-            <element signature="e#9981#10759#0" expanded="false" />
-            <element signature="e#10805#11629#0" expanded="false" />
-            <element signature="e#11780#11900#0" expanded="false" />
-            <element signature="e#12047#12163#0" expanded="false" />
-            <element signature="e#12311#12431#0" expanded="false" />
-            <element signature="e#12465#12631#0" expanded="false" />
-            <element signature="e#12789#13006#0" expanded="false" />
-            <element signature="e#13051#13245#0" expanded="false" />
-            <element signature="e#13394#13580#0" expanded="false" />
-            <element signature="e#13735#14322#0" expanded="false" />
+            <element signature="e#479#766#0" expanded="false" />
+            <element signature="e#863#1196#0" expanded="false" />
+            <element signature="e#1404#1759#0" expanded="false" />
+            <element signature="e#1859#2260#0" expanded="false" />
+            <element signature="e#3394#4432#0" expanded="false" />
+            <element signature="e#4581#5118#0" expanded="false" />
+            <element signature="e#5159#5742#0" expanded="false" />
+            <element signature="e#5878#6216#0" expanded="false" />
+            <element signature="e#6409#6531#0" expanded="false" />
+            <element signature="e#6561#6685#0" expanded="false" />
+            <element signature="e#6768#6890#0" expanded="false" />
+            <element signature="e#6920#7044#0" expanded="false" />
+            <element signature="e#7194#7909#0" expanded="false" />
+            <element signature="e#7950#8775#0" expanded="false" />
+            <element signature="e#8926#9336#0" expanded="false" />
+            <element signature="e#9378#9834#0" expanded="false" />
+            <element signature="e#9989#10767#0" expanded="false" />
+            <element signature="e#10812#11636#0" expanded="false" />
+            <element signature="e#11787#11907#0" expanded="false" />
+            <element signature="e#12054#12170#0" expanded="false" />
+            <element signature="e#12318#12438#0" expanded="false" />
+            <element signature="e#12472#12638#0" expanded="false" />
+            <element signature="e#12673#12839#0" expanded="false" />
+            <element signature="e#12997#13214#0" expanded="false" />
+            <element signature="e#13259#13453#0" expanded="false" />
+            <element signature="e#13842#14028#0" expanded="false" />
+            <element signature="e#14183#14784#0" expanded="false" />
+            <element signature="e#14825#15426#0" expanded="false" />
+            <element signature="e#16385#16926#0" expanded="false" />
+            <element signature="e#16992#17509#0" expanded="false" />
+            <element signature="e#17552#17934#0" expanded="false" />
+            <element signature="e#17977#18395#0" expanded="false" />
+            <element signature="e#18438#18832#0" expanded="false" />
+            <element signature="e#18875#19293#0" expanded="false" />
+            <element signature="e#19618#19657#0" expanded="false" />
+            <element signature="e#19694#19733#0" expanded="false" />
+            <element signature="e#19770#19809#0" expanded="false" />
+            <element signature="e#19846#19885#0" expanded="false" />
+            <element signature="e#19922#19963#0" expanded="false" />
+            <element signature="e#20000#20041#0" expanded="false" />
+            <element signature="e#20078#20119#0" expanded="false" />
+            <element signature="e#20156#20197#0" expanded="false" />
           </folding>
         </state>
       </provider>

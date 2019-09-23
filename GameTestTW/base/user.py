@@ -146,6 +146,11 @@ class User():
 				organization_id=kwargs["organization_id"],
 				proportion_details=kwargs["proportion_details"],
 				proportion_mode=kwargs["proportion_mode"])
+		
+		#会员-自动下单接口
+		elif key =="member_tw_auto_bet_001":
+			return self.__set_data_member_tw_auto_bet_001(data=kwargs["data"])
+		
 		else:
 			print("*ERROR* Wrong Key!!")
 			
@@ -183,7 +188,7 @@ class User():
 		
 		# 历史开奖查询接口
 		elif key == "member_lottery_infos_001":
-			return self.__set_url_member_lottery_infos_001(key, kwargs["created_at"])
+			return self.__set_url_member_lottery_infos_001(key, kwargs["created_at"], kwargs["lottery_id"])
 		
 		# 管理端-查询会员占成接口
 		elif key == "admin_member_proportions_001":
@@ -424,10 +429,15 @@ class User():
 		new_interface = new_interface.replace("end_time=2019-07-26", "end_time=" + end_time)
 		return new_interface
 	
-	def __set_url_member_lottery_infos_001(self,key,created_at):
+	def __set_url_member_lottery_infos_001(self,key,created_at, lottery_id):
 		interface = self.excle.get_interface(key)
-		new_interface = interface.replace("created_at=2019-07-28","created_at=" + created_at)
+		new_interface = interface.replace(
+			"lottery_id=6&created_at=2019-07-28",
+			"lottery_id=" + str(lottery_id) +"&created_at=" + created_at)
 		return new_interface
+	
+	def __set_data_member_tw_auto_bet_001(self,data):
+		return json.dumps(data)
 	
 	def __set_data_admin_password_001(self,key,user_id):
 		req_data = json.loads(self.excle.get_requestdata(key))
