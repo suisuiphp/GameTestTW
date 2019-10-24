@@ -34,6 +34,13 @@ class OperationExcel(object):
 		return rs
 	
 	def getRowIdByStr(self,sheet,col_id,str):
+		'''
+		查询一个字符串在某一列中的行号
+		:param sheet:
+		:param col_id:
+		:param str:
+		:return:
+		'''
 		rs = []
 		for row in range(0,sheet.nrows):
 			if sheet.cell_value(row,col_id) == str:
@@ -41,6 +48,13 @@ class OperationExcel(object):
 		return rs
 	
 	def getColIdByStr(self,sheet,row_id,str):
+		'''
+		查询一个字符串在某一行中的列号
+		:param sheet:
+		:param row_id:
+		:param str:
+		:return:
+		'''
 		rs = []
 		for col in range(0,sheet.ncols):
 			if sheet.cell_value(row_id,col) == str:

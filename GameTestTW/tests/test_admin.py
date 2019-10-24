@@ -69,8 +69,9 @@ class TestAdmin(IsAssert):
 		
 		for j in range(0, len(members[1])):
 			User(user_type=2, username=members[0][j], password="6tfc6yhn")
-	
-	# 测试当前期数获取-极速赛车
+		
+	# ******************测试当前期数获取***********************************************************************************
+	@unittest.skip("test_period_number_001:测试是否掉奖-极速赛车已经包含")
 	def test_period_infos_001(self):
 		'''测试当前期数获取-极速赛车'''
 		r = self.req.get("member_period_infos_001")
@@ -78,7 +79,16 @@ class TestAdmin(IsAssert):
 		self.assertHasStr(r.text, "current_period_number", u"当前期数接口结果未包含current_period_number")
 		self.assertNotNull(r.json()["current_period_number"], u"当前期数获取失败")
 	
-	# 测试上期开奖获取-极速赛车
+	@unittest.skip("test_period_number_002:测试是否掉奖-幸运飞艇已经包含")
+	def test_period_infos_002(self):
+		'''测试当前期数获取-幸运飞艇'''
+		r = self.req.get(interface_name="member_period_infos_001", url_change=True, lottery_id=2)
+		self.assertStatusCode(r, u"当前期数获取接口状态码错误%d" % r.status_code)
+		self.assertHasStr(r.text, "current_period_number", u"当前期数接口结果未包含current_period_number")
+		self.assertNotNull(r.json()["current_period_number"], u"当前期数获取失败")
+	
+	# ******************测试上期开奖**************************************************************************************
+	@unittest.skip("test_period_number_001:测试是否掉奖-极速赛车已经包含")
 	def test_recently_number_001(self):
 		'''测试上期开奖获取-极速赛车'''
 		r = self.req.get("member_recently_number_001")
@@ -87,11 +97,48 @@ class TestAdmin(IsAssert):
 		self.assertNotNull(r.json()["before_period_number"], u"上期开奖期数为空")
 		self.assertNotNull(r.json()["before_lottery_numbers"], u"上期开奖号码为空")
 	
-	# 测试是否掉奖 - 极速赛车
+	@unittest.skip("test_period_number_002:测试是否掉奖-幸运飞艇已经包含")
 	def test_recently_number_002(self):
+		'''测试上期开奖获取-幸运飞艇'''
+		r = self.req.get(interface_name="member_recently_number_001", url_change=True, lottery_id=2)
+		self.assertStatusCode(r, u"上期开奖接口状态码错误%d" % r.status_code)
+		self.assertHasStr(r.text, "before_period_number", u"上期开奖接口结果未包含before_period_number")
+		self.assertNotNull(r.json()["before_period_number"], u"上期开奖期数为空")
+		self.assertNotNull(r.json()["before_lottery_numbers"], u"上期开奖号码为空")
+	
+	# ******************测试是否掉奖********************************************************************************
+	def test_period_number_001(self):
 		'''测试是否掉奖-极速赛车'''
-		r_before = self.req.get("member_recently_number_001")
-		r_current = self.req.get("member_period_infos_001")
+		r_before = self.req.get("member_recently_number_001")  # 上期开奖
+		self.assertStatusCode(r_before, u"上期开奖接口状态码错误%d" % r_before.status_code)
+		self.assertHasStr(r_before.text, "before_period_number", u"上期开奖接口结果未包含before_period_number")
+		self.assertNotNull(r_before.json()["before_period_number"], u"上期开奖期数为空")
+		self.assertNotNull(r_before.json()["before_lottery_numbers"], u"上期开奖号码为空")
+		
+		r_current = self.req.get("member_period_infos_001")  # 当前期数
+		self.assertStatusCode(r_current, u"当前期数获取接口状态码错误%d" % r_current.status_code)
+		self.assertHasStr(r_current.text, "current_period_number", u"当前期数接口结果未包含current_period_number")
+		self.assertNotNull(r_current.json()["current_period_number"], u"当前期数获取失败")
+		
+		flag = True
+		interval = int(r_current.json()["current_period_number"]) - int(r_before.json()["before_period_number"])
+		if interval > 2:
+			flag = False
+		self.assertEqual(True, flag, u"开奖延迟{0}期".format(interval - 1))
+	
+	def test_period_number_002(self):
+		'''测试是否掉奖-幸运飞艇'''
+		r_before = self.req.get(interface_name="member_recently_number_001", url_change=True, lottery_id=2)  # 上期开奖
+		self.assertStatusCode(r_before, u"上期开奖接口状态码错误%d" % r_before.status_code)
+		self.assertHasStr(r_before.text, "before_period_number", u"上期开奖接口结果未包含before_period_number")
+		self.assertNotNull(r_before.json()["before_period_number"], u"上期开奖期数为空")
+		self.assertNotNull(r_before.json()["before_lottery_numbers"], u"上期开奖号码为空")
+		
+		r_current = self.req.get(interface_name="member_period_infos_001", url_change=True, lottery_id=2)  # 当前期数
+		self.assertStatusCode(r_current, u"当前期数获取接口状态码错误%d" % r_current.status_code)
+		self.assertHasStr(r_current.text, "current_period_number", u"当前期数接口结果未包含current_period_number")
+		self.assertNotNull(r_current.json()["current_period_number"], u"当前期数获取失败")
+		
 		flag = True
 		interval = int(r_current.json()["current_period_number"]) - int(r_before.json()["before_period_number"])
 		if interval > 2:
@@ -109,6 +156,8 @@ class TestAdmin(IsAssert):
 		self.assertNotNull(r.json()["results"][0]["lottery_numbers"], u"历史开奖返回开奖结果号码为空")
 		self.assertNotNull(r.json()["results"][0]["details"][0]["lottery_result"], u"冠亚军和或者1~5龙虎为空")
 		self.assertNotNull(r.json()["results"][0]["details"][1]["lottery_result"], u"冠亚军和或者1~5龙虎为空")
+		
+	# TODO：获取即时赔率，断言玩法个数，赔率有值
 		
 if __name__ == '__main__':
 	suite = unittest.TestSuite(unittest.makeSuite(TestAdmin))

@@ -6,6 +6,7 @@
 import json, requests
 from utils.requestExcel.operationRequestExcel import OperationRequestExcel
 from utils.operationTXT import OperationTxt
+from utils.DBApi import DBApi
 from utils.public import *
 from base.variables import *
 from copy import deepcopy
@@ -30,6 +31,7 @@ class User():
 			'cache-control': "no-cache",
 			'User-Agent': "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
 		}
+		
 		if user_type == 1:
 			self.url = getAdminUrl()
 			self.account = getAdminAccount().split("/")[0]
@@ -43,23 +45,31 @@ class User():
 		if kwargs.get("username"):
 			self.account = kwargs["username"]
 			self.password = kwargs["password"]
+		
+		if kwargs.get("db"):
+			self.db = kwargs["db"]
+		else:
+			self.db = getDb()
+			
 		self.login(user_type)
+		# self.conn = DBApi(self.db)
+		# self.ids = getIds()
 		
 	def post(self, interface_name, data_change=False,**kwargs):
 		try:
 			if data_change:
-				# print(self.set_data_by_key(interface_name,**kwargs))
+				# print("1----url:", self.url + self.excle.get_interface(interface_name))
+				# print("2----data:", self.set_data_by_key(interface_name,**kwargs))
+				# print("3----headers:", self.headers)
 				req = requests.post(
 					url=self.url + self.excle.get_interface(interface_name),
 					data=self.set_data_by_key(interface_name,**kwargs),
-					headers=self.headers,
-					timeout=6)
+					headers=self.headers)
 			else:
 				req = requests.post(
 					url=self.url + self.excle.get_interface(interface_name),
 					data=self.excle.get_requestdata(interface_name),
-					headers=self.headers,
-					timeout=6)
+					headers=self.headers)
 			return req
 		except Exception as e:
 			print("*ERROR* %s:接口请求发生未知错误" % interface_name)
@@ -146,6 +156,13 @@ class User():
 				organization_id=kwargs["organization_id"],
 				proportion_details=kwargs["proportion_details"],
 				proportion_mode=kwargs["proportion_mode"])
+			
+		# 管理-修改初审限额/退水接口
+		elif key == "admin_limit_quota_001":
+			return self.__set_data_admin_limit_quota_001(
+				organization_id=kwargs["organization_id"], link_item=kwargs["link_item"], equal_add=kwargs["equal_add"],
+				add_amount=kwargs["add_amount"], lottery_id=kwargs["lottery_id"],
+				setting_group_id=kwargs["setting_group_id"], channel=kwargs["channel"])
 		
 		#会员-自动下单接口
 		elif key =="member_tw_auto_bet_001":
@@ -467,5 +484,110 @@ class User():
 		interface = self.excle.get_interface(key)
 		new_interface = interface.replace("organization_id=586","organization_id="+str(organization_id))
 		return new_interface
+	
+	def get_retreating_data(self, id=1, usertype=1, setting_group_id=220):
+		'''
+		根据组织id、会员id、分组id获取退水配置信息
+		:param id: 组织id或会员id
+		:param usertype: 用户类型，1代表组织，2代表会员
+		:param setting_group_id:
+		:return: 列表（A盘退水、B盘退水、C盘退水、D盘退水、E盘退水、F盘退水、单注最高、单注最低、单期限额）
+		'''
 		
+		if usertype == 1:
+			sql = 'SELECT a_proportion,b_proportion,c_proportion,d_proportion,e_proportion,f_proportion,single_highest_quota,single_lowest_quota,single_period_quota' \
+			      ' FROM retreating_instances ' \
+			      ' WHERE setting_group_id =' + str(setting_group_id) + '' \
+			                                                            ' AND organization_id =' + str(
+				id) + ' AND member_id IS NULL'
+		elif usertype == 2:
+			sql = 'SELECT a_proportion,b_proportion,c_proportion,d_proportion,e_proportion,f_proportion,single_highest_quota,single_lowest_quota,single_period_quota' \
+			      ' FROM retreating_instances ' \
+			      ' WHERE setting_group_id =' + str(setting_group_id) + '' \
+			                                                            ' AND member_id =' + str(id)
+		else:
+			print("*ERROR*  Wrong usertype!")
+			return
+		
+		retreating_data = self.conn.listDataBySQL(sql)
+		list_retreating_data = [item for item in retreating_data[0]]
+		# print(list_retreating_data)
+		return list_retreating_data
+	
+	def __set_data_admin_limit_quota_001(
+			self, organization_id, link_item, equal_add, add_amount=10, lottery_id=6, setting_group_id=220, channel=1):
+		'''
+		修改退水
+		:param link_item: 条件（1：不影响，2：影响该层级，3：影响该组织线，4：影响全部层级，5：全部影响）
+		:param equal_add: 条件（1：等量增加，2：不等量增加）
+		:param add_amount: 增减的量
+		:param lottery_id: 彩种id
+		:param setting_group_id: 分组id
+		:param channel:
+		:return:
+		'''
+		# print("-----start change retreat :%d" % organization_id)
+		origin_data = self.get_retreating_data(id=organization_id, usertype=1, setting_group_id=setting_group_id)
+		origin_a_proportion = float(origin_data[0])
+		origin_b_proportion = float(origin_data[1])
+		origin_c_proportion = float(origin_data[2])
+		origin_d_proportion = float(origin_data[3])
+		origin_e_proportion = float(origin_data[4])
+		origin_f_proportion = float(origin_data[5])
+		origin_single_highest_quota = float(origin_data[6])
+		origin_single_lowest_quota = float(origin_data[7])
+		origin_single_period_quota = float(origin_data[8])
+		
+		data = {}
+		data["equal_add"] = equal_add
+		data["link_item"] = link_item
+		data["channel"] = channel
+		data["setting_group_ids"] = [setting_group_id]
+		data["organization_id"] = organization_id
+		data["data"] = [{"lottery_id": 6,
+		                 "in_data": [{
+			                 "a_proportion": 32,
+			                 "b_proportion": 32,
+			                 "c_proportion": 42,
+			                 "d_proportion": 52,
+			                 "e_proportion": 62,
+			                 "f_proportion": 72,
+			                 "origin_a_proportion": "31.0",
+			                 "origin_b_proportion": "30.0",
+			                 "origin_c_proportion": "40.0",
+			                 "origin_d_proportion": "50.0",
+			                 "origin_e_proportion": "60.0",
+			                 "origin_f_proportion": "70.0",
+			                 "single_period_quota": 30612,
+			                 "single_highest_quota": 36102,
+			                 "single_lowest_quota": "2.0",
+			                 "origin_single_period_quota": "30610.0",
+			                 "origin_single_highest_quota": "36100.0",
+			                 "origin_single_lowest_quota": "2.0",
+			                 "setting_group_id": 220,
+			                 "group": 1}]}]
+		data["data"][0]["lottery_id"] = lottery_id
+		data["data"][0]["in_data"][0]["a_proportion"] = origin_a_proportion + add_amount
+		data["data"][0]["in_data"][0]["b_proportion"] = origin_b_proportion + add_amount
+		data["data"][0]["in_data"][0]["c_proportion"] = origin_c_proportion + add_amount
+		data["data"][0]["in_data"][0]["d_proportion"] = origin_d_proportion + add_amount
+		data["data"][0]["in_data"][0]["e_proportion"] = origin_e_proportion + add_amount
+		data["data"][0]["in_data"][0]["f_proportion"] = origin_f_proportion + add_amount
+		data["data"][0]["in_data"][0]["single_period_quota"] = origin_single_period_quota + add_amount
+		data["data"][0]["in_data"][0]["single_highest_quota"] = origin_single_highest_quota + add_amount
+		data["data"][0]["in_data"][0]["single_lowest_quota"] = origin_single_lowest_quota + add_amount
+		data["data"][0]["in_data"][0]["origin_a_proportion"] = origin_a_proportion
+		data["data"][0]["in_data"][0]["origin_b_proportion"] = origin_b_proportion
+		data["data"][0]["in_data"][0]["origin_c_proportion"] = origin_c_proportion
+		data["data"][0]["in_data"][0]["origin_d_proportion"] = origin_d_proportion
+		data["data"][0]["in_data"][0]["origin_e_proportion"] = origin_e_proportion
+		data["data"][0]["in_data"][0]["origin_f_proportion"] = origin_f_proportion
+		data["data"][0]["in_data"][0]["origin_single_period_quota"] = origin_single_period_quota
+		data["data"][0]["in_data"][0]["origin_single_highest_quota"] = origin_single_highest_quota
+		data["data"][0]["in_data"][0]["origin_single_lowest_quota"] = origin_single_lowest_quota
+		data["data"][0]["in_data"][0]["setting_group_id"] = setting_group_id
+		
+		return json.dumps(data)
+	
+
 

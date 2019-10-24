@@ -16,7 +16,7 @@ class TestMember(IsAssert):
 	def setUpClass(cls):
 		cls.req = User(user_type=2)
 	
-	# ******************测试当前期数获取*****************************************************************************
+	# ******************测试当前期数获取***********************************************************************************
 	@unittest.skip("test_period_number_001:测试是否掉奖-极速赛车已经包含")
 	def test_period_infos_001(self):
 		'''测试当前期数获取-极速赛车'''
@@ -33,7 +33,7 @@ class TestMember(IsAssert):
 		self.assertHasStr(r.text, "current_period_number", u"当前期数接口结果未包含current_period_number")
 		self.assertNotNull(r.json()["current_period_number"], u"当前期数获取失败")
 	
-	# ******************测试上期开奖********************************************************************************
+	# ******************测试上期开奖**************************************************************************************
 	@unittest.skip("test_period_number_001:测试是否掉奖-极速赛车已经包含")
 	def test_recently_number_001(self):
 		'''测试上期开奖获取-极速赛车'''
@@ -331,13 +331,15 @@ class TestMember(IsAssert):
 	def test_lottery_infos_002(self):
 		'''历史开奖-幸运飞艇'''
 		r = self.req.get(interface_name="member_lottery_infos_001", url_change=True, created_at=getDate(), lottery_id=2)
-		print(r.text)
+		# print(r.text, type(r.text))
+		# print(r.content, type(r.content))
 		self.assertStatusCode(r, u"历史开奖接口状态码错误%d" % r.status_code)
 		self.assertHasStr(r.text, "results", u"历史开奖接口未返回结果results")
 		self.assertNotNull(r.json()["results"], u"历史开奖返回开奖结果为空")
 		self.assertNotNull(r.json()["results"][0]["lottery_numbers"], u"历史开奖返回开奖结果号码为空")
 		self.assertNotNull(r.json()["results"][0]["details"][0]["lottery_result"], u"冠亚军和或者1~5龙虎为空")
 		self.assertNotNull(r.json()["results"][0]["details"][1]["lottery_result"], u"冠亚军和或者1~5龙虎为空")
+		
 	
 	# ******************自动下单-新增方案*********************************************************************************
 	def auto_bet(self, category):
