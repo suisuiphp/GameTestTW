@@ -16,6 +16,7 @@
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_settled_today_001.coverage" NAME="Unittests for test_member.TestMember.test_settled_today_001 Coverage Results" MODIFIED="1569221686341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_period_infos_001.coverage" NAME="Unittests for test_member.TestMember.test_period_infos_001 Coverage Results" MODIFIED="1565665834615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_bet_001.coverage" NAME="Unittests for test_member.TestMember.test_bet_001 Coverage Results" MODIFIED="1564628970168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GameTestTW$operationCsv.coverage" NAME="operationCsv Coverage Results" MODIFIED="1571993426091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_current_orders_002.coverage" NAME="Unittests for test_member.TestMember.test_current_orders_002 Coverage Results" MODIFIED="1571823648092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_execution_odds_001.coverage" NAME="Unittests for test_member.TestMember.test_execution_odds_001 Coverage Results" MODIFIED="1569221504019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_in_test_system_retreate_a_py.coverage" NAME="Unittests in test_system_retreate_a.py Coverage Results" MODIFIED="1570614766181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
@@ -48,7 +49,7 @@
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_tw_auto_bet_002.coverage" NAME="Unittests for test_member.TestMember.test_tw_auto_bet_002 Coverage Results" MODIFIED="1570605423147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_statistic_infos_001.coverage" NAME="Unittests for test_member.TestMember.test_statistic_infos_001 Coverage Results" MODIFIED="1569221601248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_tw_auto_bet_008.coverage" NAME="Unittests for test_member.TestMember.test_tw_auto_bet_008 Coverage Results" MODIFIED="1570605518224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/GameTestTW$test.coverage" NAME="test Coverage Results" MODIFIED="1570533710827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameTestTW$test.coverage" NAME="test Coverage Results" MODIFIED="1571992690655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_recently_number_002.coverage" NAME="Unittests for test_member.TestMember.test_recently_number_002 Coverage Results" MODIFIED="1565667250722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_reports_retreating_001.coverage" NAME="Unittests for test_member.TestMember.test_reports_retreating_001 Coverage Results" MODIFIED="1569221714468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GameTestTW$Unittests_for_test_member_TestMember_test_history_001.coverage" NAME="Unittests for test_member.TestMember.test_history_001 Coverage Results" MODIFIED="1569221731140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
@@ -103,9 +104,11 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1456">
-              <caret line="120" column="29" lean-forward="false" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="98">
+              <caret line="27" column="55" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="55" />
+              <folding>
+                <element signature="e#54#69#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="operationExcel.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="operationExcel.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/operationExcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="61" selection-end-column="17" />
+            <state relative-caret-position="-359">
+              <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
               <folding>
                 <element signature="e#53#69#0" expanded="true" />
               </folding>
@@ -132,76 +135,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="operationJson.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/operationJson.py">
+      <file leaf-file-name="operationCsv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/operationCsv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+              <folding>
+                <element signature="e#55#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="public.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/public.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requestData.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/requestData.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="772" column="27" lean-forward="false" selection-start-line="772" selection-start-column="5" selection-end-line="772" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_member.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_member.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4940">
-              <caret line="251" column="46" lean-forward="true" selection-start-line="251" selection-start-column="46" selection-end-line="251" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configTest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/configTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="49" />
-              <folding>
-                <element signature="e#53#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBApi.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils/DBApi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="94" column="10" lean-forward="false" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
-              <folding>
-                <element signature="e#24#38#0" expanded="true" />
-                <marker date="1571913594062" expanded="true" signature="2698:2732" ph="delete from user... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cursors.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../CompareDBTool/venv/lib/python2.7/site-packages/pymysql/cursors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-428">
-              <caret line="168" column="8" lean-forward="false" selection-start-line="168" selection-start-column="8" selection-end-line="168" selection-end-column="8" />
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -270,7 +220,6 @@
         <option value="$PROJECT_DIR$/utils/operationJson.py" />
         <option value="$PROJECT_DIR$/utils/operationExcel.py" />
         <option value="$PROJECT_DIR$/tests/test_admin.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/page/Retreat.py" />
         <option value="$PROJECT_DIR$/tests/test_system_retreate_c.py" />
         <option value="$PROJECT_DIR$/tests/test_system_retreate_d.py" />
@@ -282,6 +231,8 @@
         <option value="$PROJECT_DIR$/config/config.ini" />
         <option value="$PROJECT_DIR$/config/configTest.py" />
         <option value="$PROJECT_DIR$/utils/DBApi.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/utils/operationCsv.py" />
       </list>
     </option>
   </component>
@@ -292,8 +243,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="165" />
-    <option name="y" value="23" />
+    <option name="x" value="97" />
+    <option name="y" value="107" />
     <option name="width" value="1739" />
     <option name="height" value="963" />
   </component>
@@ -312,6 +263,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,7 +290,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -372,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DBApi">
+  <component name="RunManager" selected="Python.operationCsv">
     <configuration name="DBApi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -411,20 +362,43 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests for test_member.TestMember.test_current_orders_002" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="operationCsv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GameTestTW" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_member.TestMember.test_current_orders_002&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/operationCsv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GameTestTW" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="Unittests in test_member.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -441,35 +415,20 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_member.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="Unittests in test_system_retreate_a.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="GameTestTW" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_system_retreate_a.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_system_retreate_a.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_current_orders_002" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_member.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python.configTest" />
-      <item index="4" class="java.lang.String" itemvalue="Python.DBApi" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_member.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.configTest" />
+      <item index="2" class="java.lang.String" itemvalue="Python.DBApi" />
+      <item index="3" class="java.lang.String" itemvalue="Python.operationCsv" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.DBApi" />
-        <item index="1" class="java.lang.String" itemvalue="Python.configTest" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_member.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_member.TestMember.test_current_orders_002" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_system_retreate_a.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python.operationCsv" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.DBApi" />
+        <item index="3" class="java.lang.String" itemvalue="Python.configTest" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_member.py" />
       </list>
     </recent_temporary>
   </component>
@@ -531,16 +490,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="165" y="23" width="1739" height="963" extended-state="0" />
+    <frame x="97" y="107" width="1739" height="963" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26958525" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29262674" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18208604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18385386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -573,18 +532,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="83" />
+      <option name="time" value="84" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utils/operationJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/requestData.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -731,13 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/public.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.3/python_stubs/-556778974/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="781">
@@ -791,10 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
           <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
-          <folding>
-            <element signature="e#1404#2465#0" expanded="false" />
-            <element signature="e#2519#4281#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,9 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2920">
           <caret line="159" column="29" lean-forward="false" selection-start-line="159" selection-start-column="29" selection-end-line="159" selection-end-column="29" />
-          <folding>
-            <element signature="e#6560#7147#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,23 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="57" column="8" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
-          <folding>
-            <element signature="e#55#76#0" expanded="false" />
-            <element signature="e#2126#2725#0" expanded="false" />
-            <element signature="e#5508#6863#0" expanded="false" />
-            <element signature="e#6999#9802#0" expanded="false" />
-            <element signature="e#9849#10552#0" expanded="false" />
-            <element signature="e#10625#11239#0" expanded="false" />
-            <element signature="e#11301#11897#0" expanded="false" />
-            <element signature="e#12167#12593#0" expanded="false" />
-            <element signature="e#12648#12874#0" expanded="false" />
-            <element signature="e#14049#14225#0" expanded="false" />
-            <element signature="e#14305#14554#0" expanded="false" />
-            <element signature="e#14627#14867#0" expanded="false" />
-            <element signature="e#15291#15407#0" expanded="false" />
-            <element signature="e#16096#16241#0" expanded="false" />
-            <element signature="e#16321#16484#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,13 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding>
-            <element signature="e#55#84#0" expanded="false" />
-            <element signature="e#444#588#0" expanded="false" />
-            <element signature="e#7649#8004#0" expanded="false" />
-            <element signature="e#9146#9193#0" expanded="false" />
-            <element signature="e#9298#18844#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,27 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#55#70#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1456">
-          <caret line="120" column="29" lean-forward="false" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/operationExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="61" selection-end-column="17" />
-          <folding>
-            <element signature="e#53#69#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -913,7 +805,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/requestData.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
+        <state relative-caret-position="15440">
           <caret line="772" column="27" lean-forward="false" selection-start-line="772" selection-start-column="5" selection-end-line="772" selection-end-column="27" />
           <folding />
         </state>
@@ -932,7 +824,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="49" />
           <folding>
-            <element signature="e#53#72#0" expanded="true" />
+            <element signature="e#53#72#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -940,7 +832,7 @@
     <entry file="file://$PROJECT_DIR$/tests/test_member.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4940">
-          <caret line="251" column="46" lean-forward="true" selection-start-line="251" selection-start-column="46" selection-end-line="251" selection-end-column="46" />
+          <caret line="251" column="46" lean-forward="false" selection-start-line="251" selection-start-column="46" selection-end-line="251" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -955,7 +847,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../CompareDBTool/venv/lib/python2.7/site-packages/pymysql/cursors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-428">
+        <state relative-caret-position="3240">
           <caret line="168" column="8" lean-forward="false" selection-start-line="168" selection-start-column="8" selection-end-line="168" selection-end-column="8" />
           <folding />
         </state>
@@ -968,6 +860,44 @@
           <folding>
             <element signature="e#24#38#0" expanded="true" />
             <marker date="1571913594062" expanded="true" signature="2698:2732" ph="delete from user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/public.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="27" column="55" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="55" />
+          <folding>
+            <element signature="e#54#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/operationCsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding>
+            <element signature="e#55#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/operationExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-359">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#53#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
