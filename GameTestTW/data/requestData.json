@@ -784,7 +784,15 @@
 	"admin_login_001":{"account":"sub01","password":"6yhn6tfc"},
 	"admin_password_001":{"user_id": "576","password": "6yhn6tfc"},
 	"admin_new_company_001":{},
-	"admin_new_member_001":{"organization_id":507,"account":"zy507a","password": "6tfc6yhn","name": "zy507","credits":100000,"handicap_id":1,"lotteries": [2, 6],"proportion_mode": 1,"details": [{"lottery_id": 6,"self_highest_proportion":0.1,"down_lowest_proportion": 0,"down_highest_proportion": 0.01},{"lottery_id": 2,"self_highest_proportion":0.1,"down_lowest_proportion": 0,"down_highest_proportion": 0.01}]},
+	"admin_new_member_001":{"organization_id":507,"account":"zy507a","password": "6tfc6yhn","name": "zy507","credits":100000,"handicap_id":1,"lotteries": [1, 2, 3, 5, 6, 7, 9, 10, 11],"proportion_mode": 1,"details": [{"lottery_id": 1,"self_highest_proportion":0.1,"down_lowest_proportion": 0,"down_highest_proportion": 0.01},
+	     {"lottery_id": 2,"self_highest_proportion":0.1,"down_lowest_proportion": 0,"down_highest_proportion": 0.01},
+	     {"lottery_id": 3, "self_highest_proportion": 0.1, "down_lowest_proportion": 0, "down_highest_proportion": 0.01},
+	     {"lottery_id": 5, "self_highest_proportion": 0.1, "down_lowest_proportion": 0,"down_highest_proportion": 0.01},
+	     {"lottery_id": 6, "self_highest_proportion": 0.1, "down_lowest_proportion": 0,"down_highest_proportion": 0.01},
+	     {"lottery_id": 7, "self_highest_proportion": 0.1, "down_lowest_proportion": 0,"down_highest_proportion": 0.01},
+	     {"lottery_id": 9, "self_highest_proportion": 0.1, "down_lowest_proportion": 0,"down_highest_proportion": 0.01},
+	     {"lottery_id": 10, "self_highest_proportion": 0.1, "down_lowest_proportion": 0,"down_highest_proportion": 0.01},
+	     {"lottery_id": 11, "self_highest_proportion": 0.1, "down_lowest_proportion": 0,"down_highest_proportion": 0.01}]},
 
 
 	"admin_update_proportion_001":{"organization_id": "399","proportion_mode": 1,"proportion_details": [{"lottery_id": 6,"self_highest_proportion": 0.51,"down_lowest_proportion": 0,"down_highest_proportion": 1}]}

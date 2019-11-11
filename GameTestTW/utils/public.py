@@ -7,7 +7,7 @@ import os,time
 
 def data_dir(dirname=None,filename=None):
 	'''
-	查找文件路径
+	获取文件路径
 	:param dirname:工程下面的文件夹名称
 	:param filename:文件名称
 	:return:返回文件名称的绝对路径

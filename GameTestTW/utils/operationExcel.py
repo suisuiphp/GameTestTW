@@ -5,6 +5,7 @@
 
 import xlrd,xlwt
 from xlutils.copy import copy
+import pandas as pd
 
 class OperationExcel(object):
 	def getExcelSheet(self,filename,sheet_id=0):
@@ -61,3 +62,22 @@ class OperationExcel(object):
 				rs.append(col)
 		return rs
 	
+	def getDictData(self,filename):
+		'''
+		pandas处理excel数据成为字典
+		:param filename:
+		:return: 字典的列表
+		'''
+		
+		df = pd.read_excel(filename)
+		dict_data = []
+		col_values = df.columns.values
+		for i in df.index.values:
+			row_data = df.ix[i, [col_values[i] for i in range(0,len(col_values))]].to_dict()
+			dict_data.append(row_data)
+		return dict_data
+	
+	
+if __name__ == '__main__':
+    file = "/Users/yan/PycharmProjects/GameTestTW/data/backup/20190801/accounts.xls"
+    print(OperationExcel().getDictData(file))

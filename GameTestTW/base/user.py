@@ -10,6 +10,7 @@ from utils.DBApi import DBApi
 from utils.public import *
 from base.variables import *
 from copy import deepcopy
+from utils.proportionExcel.opertionProportionExcel import OpertionProportionExcel
 
 
 obj_excle = OperationRequestExcel()
@@ -59,7 +60,7 @@ class User():
 		try:
 			if data_change:
 				# print("1----url:", self.url + self.excle.get_interface(interface_name))
-				# print("2----data:", self.set_data_by_key(interface_name,**kwargs))
+				print("2----data:", self.set_data_by_key(interface_name,**kwargs))
 				# print("3----headers:", self.headers)
 				req = requests.post(
 					url=self.url + self.excle.get_interface(interface_name),
@@ -270,19 +271,58 @@ class User():
 				data["independent_permission"] = "false"  # true独立调配
 				data["online_manage"] = "false"  # true
 			data["is_open_credits"] = "true"
-			data["lotteries"] = [2, 6]
+			data["lotteries"] = [1, 3, 5, 6, 2, 7, 9, 10, 11]
 			data["proportion_mode"] = 1
 			
-			data["proportion_details"] = [{}, {}]
-			data["proportion_details"][0]["lottery_id"] = 6  # 极速赛车
+			
+			
+			data["proportion_details"] = [{}, {}, {}, {}, {}, {}, {}, {}, {}]
+			
+			data["proportion_details"][0]["lottery_id"] = BJSC  # 北京赛车
 			data["proportion_details"][0]["self_highest_proportion"] = self_highest_proportion
 			data["proportion_details"][0]["down_lowest_proportion"] = 0
 			data["proportion_details"][0]["down_highest_proportion"] = 1
 			
-			data["proportion_details"][1]["lottery_id"] = 2  # 幸运飞艇
+			data["proportion_details"][1]["lottery_id"] = JSSSC  # 极速时时彩
 			data["proportion_details"][1]["self_highest_proportion"] = self_highest_proportion
 			data["proportion_details"][1]["down_lowest_proportion"] = 0
 			data["proportion_details"][1]["down_highest_proportion"] = 1
+			
+			data["proportion_details"][2]["lottery_id"] = XYNC  # 幸运农场
+			data["proportion_details"][2]["self_highest_proportion"] = self_highest_proportion
+			data["proportion_details"][2]["down_lowest_proportion"] = 0
+			data["proportion_details"][2]["down_highest_proportion"] = 1
+			
+			data["proportion_details"][3]["lottery_id"] = JSSC  # 极速赛车
+			data["proportion_details"][3]["self_highest_proportion"] = self_highest_proportion
+			data["proportion_details"][3]["down_lowest_proportion"] = 0
+			data["proportion_details"][3]["down_highest_proportion"] = 1
+			
+			data["proportion_details"][4]["lottery_id"] = XYFT  # 幸运飞艇
+			data["proportion_details"][4]["self_highest_proportion"] = self_highest_proportion
+			data["proportion_details"][4]["down_lowest_proportion"] = 0
+			data["proportion_details"][4]["down_highest_proportion"] = 1
+			
+			data["proportion_details"][5]["lottery_id"] = CQHLSS  # 重庆欢乐生肖
+			data["proportion_details"][5]["self_highest_proportion"] = self_highest_proportion
+			data["proportion_details"][5]["down_lowest_proportion"] = 0
+			data["proportion_details"][5]["down_highest_proportion"] = 1
+			
+			data["proportion_details"][6]["lottery_id"] = JSFT  # 极速飞艇
+			data["proportion_details"][6]["self_highest_proportion"] = self_highest_proportion
+			data["proportion_details"][6]["down_lowest_proportion"] = 0
+			data["proportion_details"][6]["down_highest_proportion"] = 1
+			
+			data["proportion_details"][7]["lottery_id"] = GXKS  # 广西快三
+			data["proportion_details"][7]["self_highest_proportion"] = self_highest_proportion
+			data["proportion_details"][7]["down_lowest_proportion"] = 0
+			data["proportion_details"][7]["down_highest_proportion"] = 1
+			
+			data["proportion_details"][8]["lottery_id"] = GDSYXW  # 广东十一选五
+			data["proportion_details"][8]["self_highest_proportion"] = self_highest_proportion
+			data["proportion_details"][8]["down_lowest_proportion"] = 0
+			data["proportion_details"][8]["down_highest_proportion"] = 1
+			
 			data["credits"] = 0
 			data["account"] = account
 			data["receive_level"] = 2
@@ -589,5 +629,16 @@ class User():
 		
 		return json.dumps(data)
 	
-
-
+if __name__ == '__main__':
+	req = User(user_type=1)
+	pro = OpertionProportionExcel()
+	proxys = [['zy-gs01p1', 'zy-fgs01p1', 'zy-dzj01p1', 'zy-zj01p1'], [674, 675, 676, 677]]
+	
+	# 新增会员
+	members = [[], []]
+	for id in proxys[1]:
+		temp_members = req.create_members(id)
+		members[0].extend(temp_members[0])
+		members[1].extend(temp_members[1])
+		break
+	print(members)

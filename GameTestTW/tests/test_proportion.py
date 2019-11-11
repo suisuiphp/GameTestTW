@@ -137,7 +137,7 @@ class TestProportion(IsAssert):
 					actual_down_highest,
 					u"组织：%s 下级占成最高错误，期望：%f,实际：%f" % (proxy, expect_down_highest, actual_down_highest))
 	
-	@unittest.skip("case6、case7、case8、case9、case10中包含了对case1的测试")
+	# @unittest.skip("case6、case7、case8、case9、case10中包含了对case1的测试")
 	def test_new_case1(self):
 		'''proportion-new-case1'''
 		proxys,members = self.create_users(filename="user_info_case1.txt",mark="p1")

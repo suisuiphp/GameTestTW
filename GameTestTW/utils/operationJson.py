@@ -8,11 +8,22 @@ from utils.public import *
 
 class OperationJson(object):
 	def readAllJsonData(self,filename):
+		'''
+		读取json文件中所有数据
+		:param filename:
+		:return:
+		'''
 		with open(filename,"r") as f:
 			jsonData = json.load(f)
 		return jsonData
 		
 	def getJsonDataByKey(self,filename,key):
+		'''
+		获取json文件中key对应的value值
+		:param filename:
+		:param key:
+		:return:
+		'''
 		with open(filename,"r") as f:
 			jsonData = json.load(f)
 			

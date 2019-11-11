@@ -7,7 +7,6 @@ from utils.operationExcel import OperationExcel
 from utils.operationJson import OperationJson
 from utils.public import *
 from requestExcel_data import *
-from base.variables import *
 import json
 
 class OperationRequestExcel(OperationExcel):
@@ -18,16 +17,17 @@ class OperationRequestExcel(OperationExcel):
 	def get_interface(self,interfaceName):
 		'''
 		获取请求接口
-		:return:
+		:param interfaceName: 接口名称"member_login_001"
+		:return:请求接口地址
 		'''
 		row = self.getRowIdByStr(self.sh,get_col_InterfaceName(),interfaceName)[0]
 		return self.sh.cell_value(row,get_col_Interface())
 	
 	def get_requestdata(self,interfaceName):
 		"""
-		获取请求参数
-		:param interfaceName:
-		:return:
+		获取请求参数数据
+		:param interfaceName:接口名称"member_login_001"
+		:return:请求参数数据
 		"""
 		row = self.getRowIdByStr(self.sh, get_col_InterfaceName(), interfaceName)[0]
 		requestdata = self.sh.cell_value(row, get_col_RequestData())

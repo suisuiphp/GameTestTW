@@ -2,8 +2,9 @@
 # coding:utf-8
 
 # Author:TiFity
-import requests
+import requests,sys
 import json
+from utils.logConfig import *
 
 
 def lagou(page=2):
@@ -22,33 +23,47 @@ def lagou(page=2):
 	}
 	data["pn"] = page
 	req = requests.post(url=url, headers=headers, data=data)
-	print(req.status_code)
+	# print(req.status_code)
 	print(req.text)
+	logger.info("sdjfljslfj")
 	
 	# rs = [["公司名称","城市","地区","薪资","工作年限","公司福利","工作标签"]]
-	rs = []
-	for i in range(0, 15):
-		companyFullName = req.json()["content"]["positionResult"]["result"][i]["companyFullName"]
-		city = req.json()["content"]["positionResult"]["result"][i]["city"]
-		district = req.json()["content"]["positionResult"]["result"][i]["district"]
-		workYear = req.json()["content"]["positionResult"]["result"][i]["workYear"]
-		salary = req.json()["content"]["positionResult"]["result"][i]["salary"]
-		positionAdvantage = req.json()["content"]["positionResult"]["result"][i]["salary"]
-		positionLables = req.json()["content"]["positionResult"]["result"][i]["positionLables"]
-		
-		position = {
-			"公司名称": companyFullName,
-			"城市": city,
-			"地区": district,
-			"薪资": salary,
-			"工作年限": workYear,
-			"公司福利": positionAdvantage,
-			"工作标签": positionLables
-		}
-		print(position)
-		# rs.append([companyFullName,city,district,salary,workYear,positionAdvantage,positionLables])
-		rs.append(position)
+	# rs = []
+	# for i in range(0, 15):
+	# 	companyFullName = req.json()["content"]["positionResult"]["result"][i]["companyFullName"]
+	# 	city = req.json()["content"]["positionResult"]["result"][i]["city"]
+	# 	district = req.json()["content"]["positionResult"]["result"][i]["district"]
+	# 	workYear = req.json()["content"]["positionResult"]["result"][i]["workYear"]
+	# 	salary = req.json()["content"]["positionResult"]["result"][i]["salary"]
+	# 	positionAdvantage = req.json()["content"]["positionResult"]["result"][i]["salary"]
+	# 	positionLables = req.json()["content"]["positionResult"]["result"][i]["positionLables"]
+	#
+	# 	position = {
+	# 		"公司名称": companyFullName,
+	# 		"城市": city,
+	# 		"地区": district,
+	# 		"薪资": salary,
+	# 		"工作年限": workYear,
+	# 		"公司福利": positionAdvantage,
+	# 		"工作标签": positionLables
+	# 	}
+	# 	print(position)
+	# 	# rs.append([companyFullName,city,district,salary,workYear,positionAdvantage,positionLables])
+	# 	rs.append(position)
 
 
 if __name__ == '__main__':
-	lagou(3)
+	# logger.critical('等级我是天下第一，不服来辩!')
+	# logger.error('呦呦呦，我说自己是第二，没人敢说自己是第一!')
+	# logger.warning('前面两个别吵了，让我这第三情何以堪！')
+	# logger.info('各位少侠，别来无恙，区区第四，不值一提!')
+	# logger.debug('我排名第五，不接受反驳！我不会说自己是倒数第一的，哼!')
+	# lagou()
+	pass
+
+	l = [['zy-gs01p2', 'zy-fgs01p2', 'zy-dzj01p2', 'zy-zj01p2'], [680, 681, 682, 683]]
+	l2 = [['zy680-1', 'zy681-1', 'zy682-1', 'zy683-1'], [16, 17, 18, 19]]
+	
+	l3=[['zy-gs01p3', 'zy-fgs01p3', 'zy-dzj01p3', 'zy-zj01p3'], [684, 685, 686, 687]]
+	l4=[['zy684-1', 'zy685-1', 'zy686-1', 'zy687-1'], [20, 21, 22, 23]]
+
