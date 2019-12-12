@@ -1,0 +1,6 @@
+***************REPORT***************
+referdb:mysql,root/6tfc^YHN@10.0.127.14:3306/sodap
+targetdb:mysql,root/6tfc^YHN@10.0.127.14:3306/sodap_dev
+************************************
+This tables:'ad_plan_depart_seat' missed in referdb
+************************************

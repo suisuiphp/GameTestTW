@@ -39,9 +39,9 @@ class Variables:
 		db = "mysql,zoujun/Zj123456@game-database.cluster-ccw6luzub8ta.ap-northeast-1.rds.amazonaws.com:3306/game-api-production"
 		
 		admin_account = "sub01/6yhn6tfc"
-		member_account = "ee1/qwe123"
+		member_account = "wcsh01/6yhn6tfc"
 		
-		admin_mark = "01"
+		admin_mark = "02"
 		member_mark = "zy"
 	
 		# line1：非独立调配02，line2，独立调配01
