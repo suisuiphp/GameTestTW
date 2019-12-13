@@ -5,7 +5,6 @@
 
 import unittest
 
-
 class IsAssert(unittest.TestCase):
 	
 	def assertStatusCode(self, r, msg=None):
@@ -47,3 +46,4 @@ class IsAssert(unittest.TestCase):
 		if not obj:
 			flag = False
 			self.assertEqual(True, flag, msg)
+
